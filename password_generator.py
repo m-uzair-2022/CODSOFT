@@ -1,4 +1,4 @@
-# Password Generator - CodSoft Internship Task 3
+# Password Generator 
 
 import random
 import string
