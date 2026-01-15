@@ -6,7 +6,7 @@ All projects are developed using Python and follow the given internship guidelin
 
 ---
 
-## ✅ Completed Tasks
+## COMPLETED TASKS
 
 ### 🔹 Task 1: To-Do List Application
 A command-line based To-Do List application developed using Python.
@@ -50,7 +50,7 @@ A Python program to generate strong and random passwords.
 
 ---
 
-## 🧑‍💻 Intern Details
+## Intern Details
 **Name:** Mohammad Uzair Ansari  
 **Domain:** Python Programming  
 **Internship Provider:** CODSOFT  
@@ -58,6 +58,6 @@ A Python program to generate strong and random passwords.
 
 ---
 
-## 🔗 GitHub Repository Usage
+## GitHub Repository Usage
 All tasks are maintained in this single repository as per internship instructions.
 Each task is implemented with clean code and proper documentation.
