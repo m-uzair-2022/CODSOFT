@@ -1,4 +1,4 @@
-# Simple Calculator - CodeSoft Internship Task 2
+# Simple Calculator
 
 print("_______________________________________")
 print("           Simple Calculator           ")
