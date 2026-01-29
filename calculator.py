@@ -1,4 +1,4 @@
-# Simple Calculator 
+# Simple Calculator
 print("_______________________________________")
 print("           Simple Calculator           ")
 print("_______________________________________\n")
