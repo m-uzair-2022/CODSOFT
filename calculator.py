@@ -1,5 +1,4 @@
-# Simple Calculator - CodeSoft Internship Task 2
-
+# Simple Calculator 
 print("_______________________________________")
 print("           Simple Calculator           ")
 print("_______________________________________\n")
@@ -19,10 +18,12 @@ while(True):
         print("      Thank You! Have a Good Day.      ")
         print("_______________________________________")
         break
-
-    firstNumber = float(input("Enter First Number: "))
-    SecondNumber = float(input("Enter Second Number: "))
-
+    try:
+        firstNumber = float(input("Enter First Number: "))
+        SecondNumber = float(input("Enter Second Number: "))
+    except:
+        print("Please! Enter only float numbers.")
+        continue
     if choice == '1':
         print("Result : ", firstNumber + SecondNumber)
     elif choice == '2':

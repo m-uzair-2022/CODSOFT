@@ -1,8 +1,8 @@
 # CODSOFT Python Programming Internship
 
-This repository contains the tasks completed as part of the
-**CodSoft Python Programming Internship (January 2026)**.
-All projects are developed using Python and follow the given internship guidelines.
+This repository contains the tasks completed as part of the  
+**CodSoft Python Programming Internship (January 2026)**.  
+All projects are developed using Python and strictly follow the given internship guidelines.
 
 ---
 
@@ -33,10 +33,19 @@ A command-line based To-Do List application developed using Python.
 A Python-based calculator program that performs basic arithmetic operations.
 
 **Features:**
-- Addition, subtraction, multiplication, and division
+- Addition, subtraction, multiplication, division, and modulus
 - User input handling
 - Input validation
+- Protection against division by zero
 - Exit option
+- Menu-driven CLI interface
+
+**Concepts Used:**
+- Conditional statements
+- Loops
+- User input handling
+- Error handling (`try-except`)
+- Command Line Interface (CLI)
 
 ---
 
@@ -46,7 +55,58 @@ A Python program to generate strong and random passwords.
 **Features:**
 - User-defined password length
 - Random password generation
-- Combination of characters for better security
+- Combination of letters, digits, and special characters
+- Displays generated password on the screen
+
+**Concepts Used:**
+- Random module
+- String module
+- Loops
+- User input handling
+
+---
+
+### 🔹 Task 4: Rock-Paper-Scissors Game
+A command-line based Rock-Paper-Scissors game developed using Python.
+
+**Features:**
+- User input for rock, paper, or scissors
+- Computer generates random choice
+- Game logic to determine win, lose, or tie
+- Displays both user and computer choices
+- Score tracking for user and computer
+- Option to exit the game
+- Clear and interactive CLI interface
+
+**Concepts Used:**
+- Lists
+- Random module
+- Loops
+- Conditional statements
+- User input handling
+- Command Line Interface (CLI)
+
+---
+
+### 🔹 Task 5: Contact Book Application
+A command-line based Contact Book application developed using Python.
+
+**Features:**
+- Add new contacts with name, phone number, email, and address
+- View all saved contacts
+- Search contacts by name or phone number
+- Update existing contact details
+- Delete contacts
+- Menu-driven and user-friendly CLI interface
+- Proper input validation
+
+**Concepts Used:**
+- Lists and Dictionaries
+- Functions
+- Loops
+- Conditional statements
+- Error handling (`try-except`)
+- Command Line Interface (CLI)
 
 ---
 
@@ -59,5 +119,5 @@ A Python program to generate strong and random passwords.
 ---
 
 ## 🔗 GitHub Repository Usage
-All tasks are maintained in this single repository as per internship instructions.
-Each task is implemented with clean code and proper documentation.
+All tasks are maintained in this single repository as per internship instructions.  
+Each task is implemented with clean, readable code and proper documentation.

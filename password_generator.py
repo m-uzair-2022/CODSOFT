@@ -1,4 +1,4 @@
-# Password Generator - CodSoft Internship Task 3
+# Password Generator 
 
 import random
 import string
@@ -7,7 +7,11 @@ print("_______________________________________")
 print("          PASSWORD GENERATOR           ")
 print("_______________________________________\n")
 
-length = int(input("Enter Password length: "))
+try:
+    length = int(input("Enter Password length: "))
+except:
+    print("Please! Enter only float numbers.")
+    exit()
 
 characters = string.ascii_letters + string.digits + string.punctuation
 
