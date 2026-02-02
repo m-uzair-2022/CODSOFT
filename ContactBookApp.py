@@ -1,7 +1,9 @@
-# Contact Book Application 
+# Contact Book Application
+# Stores and manages contact details using CLI
 
-contacts = []
+contacts = []  # List to store contacts
 
+# Function to display menu
 def show_menu():
     print("\n_______________________________________")
     print("            Contact Book              ")
@@ -13,6 +15,7 @@ def show_menu():
     print("5. Delete Contact")
     print("6. Exit")
 
+# Function to add a new contact
 def add_contact():
     name = input("Enter Name: ")
     phone = input("Enter Phone Number: ")
@@ -29,15 +32,17 @@ def add_contact():
     contacts.append(contact)
     print("Contact added successfully.")
 
+# Function to view all contacts
 def view_contacts():
     if not contacts:
         print("No contacts available.")
         return
 
     for i, c in enumerate(contacts, start=1):
-        print(f"\n{i}. Name    : {c['name']}")
-        print(f"   Phone   : {c['phone']}")
+        print(f"\n{i}. Name  : {c['name']}")
+        print(f"   Phone : {c['phone']}")
 
+# Function to search contact
 def search_contact():
     search = input("Enter name or phone to search: ")
 
@@ -52,6 +57,7 @@ def search_contact():
 
     print("Contact not found.")
 
+# Function to update contact
 def update_contact():
     view_contacts()
     if not contacts:
@@ -71,6 +77,7 @@ def update_contact():
     except ValueError:
         print("Please enter a valid number.")
 
+# Function to delete contact
 def delete_contact():
     view_contacts()
     if not contacts:
@@ -86,6 +93,7 @@ def delete_contact():
     except ValueError:
         print("Please enter a valid number.")
 
+# Main program loop
 while True:
     show_menu()
     choice = input("Choose an option (1-6): ")
