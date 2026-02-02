@@ -114,10 +114,31 @@ A command-line based Contact Book application developed using Python.
 **Name:** Mohammad Uzair Ansari  
 **Domain:** Python Programming  
 **Internship Provider:** CODSOFT  
-**Duration:** January 2026  
+**Duration:** January-February 2026  
 
 ---
 
 ## 🔗 GitHub Repository Usage
 All tasks are maintained in this single repository as per internship instructions.  
 Each task is implemented with clean, readable code and proper documentation.
+
+---
+
+## 🎥 LinkedIn Task Demonstration Videos
+
+Below are the LinkedIn video demonstrations for each completed task as required by the CodSoft internship guidelines:
+
+- **Task 1: To-Do List Application**  
+  https://www.linkedin.com/posts/m-uzair-ansar-3bb847328_codsoft-python-internship-activity-7423956863752278017-mZEG
+
+- **Task 2: Simple Calculator**  
+  https://www.linkedin.com/posts/m-uzair-ansar-3bb847328_codsoft-pythonprogramming-internship-activity-7423957296939982848-jPsx
+
+- **Task 3: Password Generator**  
+  https://www.linkedin.com/posts/m-uzair-ansar-3bb847328_codsoft-python-passwordgenerator-activity-7423957835119591424-51Y5
+
+- **Task 4: Rock Paper Scissors Game**  
+  https://www.linkedin.com/posts/m-uzair-ansar-3bb847328_codsoft-python-gamedevelopment-activity-7423958330185768960-Mcwx
+
+- **Task 5: Contact Book Application**  
+  https://www.linkedin.com/posts/m-uzair-ansar-3bb847328_codsoft-python-contactbook-activity-7423958740460199936-r1Ft
