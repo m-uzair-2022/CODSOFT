@@ -1,7 +1,9 @@
 # To-Do List Application
+# This program allows users to manage daily tasks using a CLI-based menu
 
-tasks = []
+tasks = []  # List to store all tasks
 
+# Function to display menu options
 def show_menu():
     print("_______________________________________")
     print("              To-Do List               ")
@@ -12,22 +14,25 @@ def show_menu():
     print("4. Delete Task")
     print("5. Exit")
 
+# Function to add a new task
 def add_task():
     task = input("Enter new task: ").strip()
     if task:
-        tasks.append(task)
+        tasks.append(task)  # Add task to list
         print("Task added successfully.")
     else:
         print("Task cannot be Empty.")
 
+# Function to view all tasks
 def view_task():
     if not tasks:
         print("No tasks available.")
     else:
         print("\n Your tasks: ")
-        for i, task in enumerate(tasks,start=1):
+        for i, task in enumerate(tasks, start=1):
             print(f"{i}. {task}")
 
+# Function to update an existing task
 def update_task():
     view_task()
     if tasks:
@@ -45,6 +50,7 @@ def update_task():
         except ValueError:
             print("Please enter a valid number.")
 
+# Function to delete a task
 def delete_task():
     view_task()
     if tasks:
@@ -58,6 +64,7 @@ def delete_task():
         except ValueError:
             print("Please enter a valid number.")
 
+# Main program loop
 while True:
     show_menu()
     choice = input("Choose an option (1-5): ")
