@@ -1,4 +1,5 @@
-# Rock Paper Scissors Game 
+# Rock Paper Scissors Game
+# User plays against the computer using CLI
 
 import random
 
@@ -11,6 +12,7 @@ choices = ["rock", "paper", "scissors"]
 user_score = 0
 computer_score = 0
 
+# Main game loop
 while True:
     print("\nChoose one:")
     print("1. Rock")
@@ -20,6 +22,7 @@ while True:
 
     choice = input("Enter your choice: ")
 
+    # Exit game and display final score
     if choice == '4':
         print("\nFinal Score:")
         print("You      :", user_score)
@@ -29,6 +32,7 @@ while True:
         print("_______________________________________")
         break
 
+    # Validate input
     if choice not in ['1', '2', '3']:
         print("Invalid choice! Please select 1 to 4.")
         continue
@@ -39,6 +43,7 @@ while True:
     print("\nYou chose     :", user_choice)
     print("Computer chose:", computer_choice)
 
+    # Game logic
     if user_choice == computer_choice:
         print("Result: It's a Tie!")
     elif (
